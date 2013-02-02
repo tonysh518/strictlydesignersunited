@@ -1,0 +1,39 @@
+body {background:#fefaf8; font-family:Arial, '宋体', Helvetica, sans-serif;}
+#container {width:1000px;margin:0 auto 10px auto;color:#563830;font-size:12px;}
+.header {font-size:14px;font-weight:bold;margin:10px 0;}
+table {background:#e2a89c;}
+table th {color:#fff; text-align:center;font-weight:bold;padding:10px;}
+table td {background:#fff; text-align:center; vertical-align:middle;padding:3px 0;}
+.logo {text-align:center;margin:20px 0;}
+.user_info {display:none;}
+table,td,th {border:1px solid #f4ac9a;}
+.logout {text-align:right;margin:5px 0;}
+.logout a {color:#CE6C87}
+
+.field  {height:45px;}
+.field span {font-size:0;float:left;width:90px;text-align:right;margin:7px 10px 0 0;background:url(../images/reg_label.png) no-repeat;margin:6px 15px 0 0;}
+.field input {background:#f6a892;border:none;color:#fff;padding:8px;-moz-border-radius: 3px;-webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;width:180px;}
+.field input:focus {background:#ed8a6f;}
+.field input.error {background:#e66b4a;}
+label.error {font-size:12px;color:#ed8a6f;margin:0 10px;}
+.btn {margin:0 0 0 100px;}
+.btn button {background:url(../images/shared_btn.png) no-repeat;width:80px;height:23px;border:none;font-size:0;}
+.btn button:hover {opacity:0.7; filter:alpha(opacity=70);}
+.auth input {width:50px;}
+#user_login_form {margin:50px 0 0 320px;}
+.user_info { position:absolute;background:#ffdfd7;border:1px solid #e2a89c;width:200px;top:30px;left:0;z-index:999;text-align:left;line-height:250%;padding:10px 20px;color:#723121; cursor:default;}
+.user_td { position:relative;padding:10px 0 10px 20px;color:#fb623d; text-decoration:underline; cursor:pointer;text-align:left;}
+
+* {-webkit-touch-callout: text;
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select:text;
+	}
+	
+#error_msg {margin:20px 0 0 100px}
+
+.field .name {width:80px;height:18px;background-position:0 -54px; text-indent:-999em;}
+.field .pass {background:url(../images/reg_label_pass.png) no-repeat 51px 0;width:80px;height:18px;}
+.field .authcode {width:80px;height:18px;background-position:17px -324px; text-indent:-999em;}

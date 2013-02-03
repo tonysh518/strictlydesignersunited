@@ -1,2 +1,4 @@
-.page_left ul a
+.page_left ul a,
+.gallery_image a,
+.gallery_nav li a
 {-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}

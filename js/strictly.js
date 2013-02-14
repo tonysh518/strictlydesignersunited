@@ -1,4 +1,5 @@
- $.backstretch("images/bg.jpg");
+$window = $(window); 
+$.backstretch("images/bg.jpg");
  var currentSection = 0;
  
 $('.navigation a').click(function(e){
@@ -33,8 +34,28 @@ $(".gallery_image a").fancybox({
 	}
 });
 
+$('.gallery_nav a').click(function(){
+	$('.gallery_nav a').removeClass('actived');
+	$(this).addClass('actived');
+	var index = $.inArray(this,$('.gallery_nav a'));
+	$('.gallery_box').fadeOut(400);
+	$('.gallery_box').eq(index).delay(400).fadeIn(400);
+});
+
+changeBookmarkOnScroll();
+$window.bind('scroll', changeBookmarkOnScroll);
 
 
+var whereIam;
+function changeBookmarkOnScroll(){
+	$('.section').each(function(){
+		if ($(this).position().top <= $window.scrollTop()){
+			whereIam = $(this).attr('id');
+		}
+	});
+	$('.navigation a').removeClass('actived');
+	$('.navigation a[href="#' + whereIam + '"]').addClass('actived');
+}
 
 var styles = [
   {

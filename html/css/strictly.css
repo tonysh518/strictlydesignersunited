@@ -1,0 +1,38 @@
+.page_right { font-size:14px;font-weight:100;color:#eee;}
+.section1 {color:#eee;}
+.section1 p {margin:10px 0;color:#aaa;}
+.section1 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+.who_slider {margin:10px 0;}
+.home_text {margin:25px 0 0;}
+.section_inner {background:url(../images/black.png);padding:20px 40px;width:620px;margin:50px 0 0;}
+
+.section2 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+.crew {margin:0 0 50px 0;}
+.crew_left .name {font-size:20px;font-weight:bold;}
+.crew_left .title {font-size:16px;}
+.crew_left .desc {margin:15px 0 0;color:#aaa;}
+.crew_left {float:left;width:327px;margin:0 15px 0 0;}
+.crew_right img {border:4px solid #444;}
+
+.section3 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+.event_item { position:relative;}
+.event_title { position:absolute;bottom:0;left:0;padding:10px;color:#eee;background:url(../images/black2.png);width:595px;}
+
+.section4 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+
+.section5 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+
+.section6 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 20px 0;color:#aaa;}
+.gallery_nav {height:40px;}
+.gallery_nav li {float:left;margin:0 20px 0 0;padding:0;list-style:none;}
+.gallery_nav li a {color:#ccc; text-decoration:none;border-top:3px solid #111;}
+.gallery_nav li a:hover,.gallery_nav li a.actived {color:#eee;border-top:3px solid #b60000;}
+.gallery_image {float:left;margin:0 15px 15px 0;}
+.gallery_image a {border:4px solid #444;display:block;}
+.gallery_image a:hover {border:4px solid #999;}
+.gallery_image a img {display:block;}
+
+.section7 h2 {font-size:36px; font-family:Impact,sans-serif; font-weight:normal;margin:0 0 30px 0;color:#aaa;}
+#googlemap {width:620px;height:420px;margin:0 0 30px 0;}
+.map_left {float:left;}
+.map_right {float:right;}

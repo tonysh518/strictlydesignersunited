@@ -3,10 +3,9 @@
  
 $('.navigation a').click(function(e){
 	e.preventDefault();
-	var index = $.inArray(this,$('.navigation a'));
-	currentSection = index;
-	movingSection(index);
-	console.log(index);
+	$.scrollTo( $(this).attr('href'), 1000, {easing:'easeOutQuart'} );
+	$('.navigation a').removeClass('actived');
+	$(this).addClass('actived');
 });
  
  $('.who_slider').cycle({ 
@@ -90,20 +89,3 @@ var marker = new google.maps.Marker({
 });
 
 
-
-pageresize();
-$(window).bind('resize',pageresize);
-//resize
-function pageresize(){
-	var leftTop = ($(window).height() - 640) / 2;
-	$('.page_left').stop().animate({'margin-top':leftTop});
-	
-	var rightTop = ($(window).height() - 640) / 2;
-	$('.page_right').stop().animate({'margin-top':rightTop});
-	$('.section').css({'margin-bottom': rightTop });
-}
-
-function movingSection(index){
-	var rightTop = $(window).height() + ($(window).height() - 640) / 2;
-	$('.page_right').stop().animate({'margin-top':-rightTop*index});
-}
